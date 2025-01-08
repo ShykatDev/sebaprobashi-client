@@ -1,0 +1,8 @@
+{
+  "extends": ["next", "next/core-web-vitals"],
+  "rules": {
+    // Add custom rules here
+    "no-console": "warn", // Example rule: warn on console logs
+    "react/react-in-jsx-scope": "off" // Next.js handles React import automatically
+  }
+}

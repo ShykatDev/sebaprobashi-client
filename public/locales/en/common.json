@@ -1,0 +1,102 @@
+{
+  "HOME": {
+    "TITLE": "Seba Probashi - The faithful companion of expatriate life",
+    "DESCRIPTION": "<p><strong>Seba Probashi</strong></p>\n<p>Seba Probashi is a trusted organization that facilitates legal migration to the Middle East with the best visa services. We are committed to resolving all issues faced by expatriates.</p>\n<p><strong>Our Services:</strong></p>\n<ul>\n  <li><strong>Travel Abroad:</strong> Arranging the best and most reliable visas for the Middle East.</li>\n  <li><strong>Outpass Service:</strong> Assisting expatriates in obtaining outpasses to return home if staying illegally.</li>\n  <li><strong>Loan Support:</strong> Providing full support in obtaining loans from Probashi Kallyan Bank for migration or other needs.</li>\n  <li><strong>Iqama Issue Resolution:</strong> Resolving iqama-related problems faced by expatriates.</li>\n  <li><strong>24/7 Customer Service:</strong> Ensuring support at any time for any needs of expatriates.</li>\n</ul>\n<p>Seba Probashi works tirelessly to make your expatriate life simple, safe, and hassle-free.</p>"
+  },
+  "VISA": {
+    "TITLE": "Check your visa status",
+    "SUBTITLE": "If you have applied for any new visa, you can check your current visa status by providing your passport number below."
+  },
+  "AVAILABLE_VISA": {
+    "TITLE": "Available Visa",
+    "SUBTITLE": "Here, you can view all available visa options. To apply, please click the Apply button and complete the form.",
+    "BUTTON": "Check all available visa",
+    "DETAILS": "View Details",
+    "APPLY": "Apply Visa",
+    "APPLY_TITLE": "Which country do you want to apply for a visa?"
+  },
+  "JOB": {
+    "TITLE": "Available Job Vacancies",
+    "SUBTITLE": "Here, you can view all available job vacancies. To apply, please click the Apply button and complete the form."
+  },
+  "REPORT": {
+    "TITLE": "Check your medical report",
+    "SUBTITLE": "Enter your passport number to check your report status."
+  },
+  "COMPLAIN": {
+    "TITLE": "Make complain",
+    "SUBTITLE": "Enter your details to complain about."
+  },
+  "SECURITY": {
+    "TITLE": "Apply for Life Security",
+    "SUBTITLE": "Enter your details to apply for life security.",
+    "NOTICE_TITLE": "Notice",
+    "NOTICE": "<p><strong>Life Security Package</strong></p>\n<p>Expatriates living in the Middle East often face various challenges. Sometimes, due to financial constraints, it becomes impossible to send the deceased's body back to their home country. To solve these issues, we have introduced the <strong>Life Security Package</strong>.</p>\n<p>Activate this service with a package price of only <strong>150 Saudi Riyals</strong> and ensure your safety.</p>\n<p><strong>What the Life Security Package includes:</strong></p>\n<ul>\n  <li>- Medical services during your stay abroad.</li>\n  <li>- Full responsibility for respectfully sending the deceased's body back to the home country.</li>\n  <li>- Complete procedures for handing over the body to the family.</li>\n</ul>\n<p><strong>Why this service is important for you:</strong></p>\n<p>Take responsibility for your own safety. Instead of depending on others, make the right decision today.</p>\n<p><strong>If you are interested in availing the package:</strong></p>\n<ol>\n  <li>- Fill out and submit the form we provide.</li>\n  <li>- A representative will contact you soon via WhatsApp or phone.</li>\n</ol>\n<p><strong>Life Security: Your trust, our responsibility.</strong></p>"
+  },
+  "NAVBAR": {
+    "HOME": "Home",
+    "VISA_CHECK": "Visa Check",
+    "JOB_VACANCY": "Job Vacancies",
+    "LOAN": "Expatriate Loan",
+    "AVAILABLE_VISA": "Available Visa",
+    "MEDICAL_REPORT": "Medical Report",
+    "COMPLAINS": "Complains",
+    "LIFE_SECURITY": "Life Security",
+    "CONTACT": "Contact",
+    "LOGIN": "Login",
+    "LOGOUT": "Logout",
+    "SERVICES": "Services"
+  },
+  "LOGO": {
+    "TITLE": "Seba Probashi"
+  },
+  "BUTTONS": {
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "CHECK": "Check",
+    "LOGIN": "Login"
+  },
+  "OUTPASS": {
+    "TITLE": "Outpass Request",
+    "DESCRIPTION": "Collect outpasses for illegal aliens to return home. Outpass will reach you in maximum 72 hours to 7 working days.",
+    "BUTTON": "Request an Outpass",
+    "NOTE": "Outpass is a valid way to return to the country from the Middle East for illegal expatriates. An illegal Bangladeshi expatriate can apply to return to the country with an outpass from Saudi Arabia. An outpass is a temporary travel document that allows expatriates to return to the country. It is usually used when there is no passport or when the visa expires.",
+    "POPUP_TITLE": "Outpass Notice",
+    "POPUP_DESCRIPTION": "Dear Customer, Before applying for an outpass, make sure to fill the form after confirming some points. You have to pay 2990 Saudi Riyal for the outpass application",
+    "AGREE": "Agree",
+    "DISAGREE": "Disagree"
+  },
+  "FORM": {
+    "FIRST_NAME": "First Name",
+    "LAST_NAME": "Last Name",
+    "PASSPORT_NUMBER": "Passport Number",
+    "EMAIL": "Email",
+    "PHONE": "Phone or Whatsapp Number",
+    "ADDRESS": "Present Address",
+    "DISTRICT": "District",
+    "COUNTRY": "Country",
+    "AGE": "Age",
+    "IMAGE": "Select Your Image",
+    "COMPLAIN_IMAGE": "Select Complain Image",
+    "COMPLAIN_SUBJECT": "Complain Subject",
+    "COMPLAIN_BODY": "Complain Description",
+    "LOAN_PURPOSE": "Purpose of Loan",
+    "LOAN_AMOUNT": "Amount of Loan",
+    "INCOME": "Monthly Income"
+  },
+  "NOTFOUND": {
+    "TITLE": "No Results Found",
+    "DESCRIPTION": "We couldn't find any matches for your search. Please try adjusting your keywords or explore other options."
+  },
+  "CONFIRMATION": {
+    "TITLE": "Your application has successfully sent.",
+    "DESC": "Thank you for reaching out! We appreciate your interest, and one of our team members will be in contact with you shortly to assist further.",
+    "BUTTON": "Back to home"
+  },
+  "LOAN": {
+    "TITLE": "Probashi Kallyan Bank",
+    "DESC": "Want to take a loan from Probashi Kallyan Bank for traveling abroad? On this page, you can learn about the loan process for traveling abroad, required documents, the loan procedure, the bank’s address, and contact numbers – everything you need to know is available here.",
+    "PROCESS": "<p><strong>Expatriate Welfare Bank Loan Process</strong></p>\n<p>Follow these steps to complete the process of taking a loan from the Expatriate Welfare Bank for traveling abroad:</p>\n<ol>\n  <li>- Submit your request through the portal.</li>\n  <li>- Our representative will contact you shortly.</li>\n  <li>- Prepare the required documents and information.</li>\n  <li>- Review the necessary fees and terms.</li>\n  <li>- Wait for the bank’s approval of your loan application.</li>\n  <li>- You will be notified once your loan is approved.</li>\n  <li>- The loan amount will be disbursed to your designated bank account.</li>\n</ol>\n<p><strong>Our Service: Your Trust, Our Responsibility.</strong></p>",
+    "APPLY": "APPLY NOW"
+  }
+}

@@ -1,0 +1,68 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("../public/assets/bg-pattern.png");
+  background-size: 5%;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Rich text editor styles */
+.prose {
+  min-height: 128px;
+  cursor: text;
+}
+
+.prose ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+}
+
+.prose h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Placeholder (at the top) */
+p.is-editor-empty:first-child::before {
+  color: rgba(0, 0, 0, 0.81);
+  content: attr(data-placeholder);
+  float: left;
+  font-weight: 300;
+  opacity: 1;
+  height: 0;
+  pointer-events: none;
+}
+
+.tiptap-editor {
+  background-color: #ffffff; /* White background */
+}
+
+/* xxxxxxxxxxx Rich text editor styles xxxxxxxxxxxxxxxxxx*/
