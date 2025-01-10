@@ -10,6 +10,9 @@ module.exports = {
       container: {
         center: true,
       },
+      zIndex: {
+        '100': '100',
+      },
       colors: {
         primary: "#000576",
         // background: "#E8E6DE",

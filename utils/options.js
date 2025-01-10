@@ -5,6 +5,7 @@ import {
   CursorArrowRippleIcon,
   DocumentCheckIcon,
   DocumentTextIcon,
+  VideoCameraIcon
 } from "@heroicons/react/24/solid";
 import { FileInput } from "lucide-react";
 import { BsCardHeading } from "react-icons/bs";
@@ -61,6 +62,11 @@ export const SideBarOptions = [
     url: "/dashboard/content",
     icon: <BsCardHeading/>,
   },
+  {
+    title: "Videos",
+    url: "/dashboard/public-videos",
+    icon: <VideoCameraIcon/>,
+  },
 ];
 
 export const NavbarOptions = [
@@ -97,6 +103,11 @@ export const NavbarOptions = [
   {
     title: "LIFE_SECURITY",
     url: "/life-security",
+    step: 1
+  },
+  {
+    title: "VIDEOS",
+    url: "/videos",
     step: 1
   },
   {

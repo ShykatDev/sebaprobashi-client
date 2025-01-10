@@ -45,7 +45,8 @@
     "CONTACT": "Contact",
     "LOGIN": "Login",
     "LOGOUT": "Logout",
-    "SERVICES": "Services"
+    "SERVICES": "Services",
+    "VIDEOS": "Videos"
   },
   "LOGO": {
     "TITLE": "Seba Probashi"
@@ -98,5 +99,8 @@
     "DESC": "Want to take a loan from Probashi Kallyan Bank for traveling abroad? On this page, you can learn about the loan process for traveling abroad, required documents, the loan procedure, the bank’s address, and contact numbers – everything you need to know is available here.",
     "PROCESS": "<p><strong>Expatriate Welfare Bank Loan Process</strong></p>\n<p>Follow these steps to complete the process of taking a loan from the Expatriate Welfare Bank for traveling abroad:</p>\n<ol>\n  <li>- Submit your request through the portal.</li>\n  <li>- Our representative will contact you shortly.</li>\n  <li>- Prepare the required documents and information.</li>\n  <li>- Review the necessary fees and terms.</li>\n  <li>- Wait for the bank’s approval of your loan application.</li>\n  <li>- You will be notified once your loan is approved.</li>\n  <li>- The loan amount will be disbursed to your designated bank account.</li>\n</ol>\n<p><strong>Our Service: Your Trust, Our Responsibility.</strong></p>",
     "APPLY": "APPLY NOW"
+  },
+  "PUBLICVIDEOS": {
+    "TITLE": "Important videos for expatriates"
   }
 }

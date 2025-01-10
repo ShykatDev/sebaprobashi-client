@@ -3,6 +3,7 @@
 import Footer from "@/components/common/Footer";
 import Loading from "@/components/common/Loading";
 import Navbar from "@/components/common/Navbar";
+import { AppProgressBar as ProgressBar } from 'next-nprogress-bar';
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
@@ -30,7 +31,7 @@ const UserLayout = ({ children }) => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       const isLogin = JSON.parse(localStorage.getItem("auth"));
-      
+
       if (!isLogin) {
         router.push("/login");
       }
@@ -46,18 +47,32 @@ const UserLayout = ({ children }) => {
       <div className="container border-x border-primary">
         <Navbar />
         <div className="min-h-[calc(100vh-256px)] bg-background ">
+          
           {children}
+          <ProgressBar
+            height="4px"
+            color="#000576"
+            options={{ showSpinner: true }}
+            shallowRouting
+          />
         </div>
         <Footer />
         {/* <AudioControl className={"fixed bottom-4 left-2 z-50"}/> */}
         {/* <FacebookMsg /> */}
 
-        <Link href={"https://wa.me/message/NGNPK7GJ6JZNN1"} target="_blank" className="fixed bottom-6 right-6">
-        
-          <Image alt="whatsapp" src={'/assets/whatsapp.png'} width={100} height={100} className="size-12"/>
-        
+        <Link
+          href={"https://wa.me/message/NGNPK7GJ6JZNN1"}
+          target="_blank"
+          className="fixed bottom-6 right-6"
+        >
+          <Image
+            alt="whatsapp"
+            src={"/assets/whatsapp.png"}
+            width={100}
+            height={100}
+            className="size-12"
+          />
         </Link>
-
       </div>
     </Suspense>
   );

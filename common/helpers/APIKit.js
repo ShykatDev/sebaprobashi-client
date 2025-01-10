@@ -72,6 +72,14 @@ const APIKit = {
       const url = `/we/heading/${id}`;
       return client.patch(url, payload);
     },
+    createVideo: (payload) => {
+      const url = `/we/videos`;
+      return client.post(url, payload);
+    },
+    deleteVideo: (id) => {
+      const url = `/we/videos/${id}`;
+      return client.delete(url);
+    },
   },
 
   common: {
@@ -143,6 +151,11 @@ const APIKit = {
       const url = `/heading`;
       return client.get(url);
     },
+
+    getVideos: () => {
+      const url = "/videos";
+      return client.get(url)
+    }
   },
 };
 export default APIKit;
