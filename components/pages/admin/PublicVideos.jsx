@@ -29,8 +29,8 @@ const PublicVideos = () => {
 
   const handleSaveContent = () => {
     const onSuccess = () => {
-      refetch();
       setUrl("");
+      refetch();
     };
   
     const onError = (err) => {
@@ -38,7 +38,7 @@ const PublicVideos = () => {
       throw new Error(errorMessage);
     };
   
-    const promise = APIKit.admin.createVideo({ url }).then(onSuccess).catch(onError);
+    const promise = APIKit.admin.createVideo({ url }).then(()=>onSuccess()).catch(onError);
   
     return toast.promise(promise, {
       loading: "Adding Video...",
@@ -82,6 +82,7 @@ const PublicVideos = () => {
         <div className="space-y-3">
           <TextInput
             label="Youtube URL"
+            value={url}
             placeholder="Enter youtube video url"
             onChange={(e) => setUrl(e.target.value)}
           />
