@@ -30,13 +30,13 @@ const Videos = () => {
         <div className="p-4 sm:p-10 min-h-auto">
             <h2 className="font-semibold text-2xl text-primary md:text-4xl">{t("PUBLICVIDEOS.TITLE")}</h2>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
                 {data?.length ? (
                     <>
                         {
                             data?.map((item, i) => {
                                 return (
-                                    <div key={i} className="relative sm:h-64 overflow-hidden rounded-md">
+                                    <div key={i} className="relative h-40 sm:h-64 overflow-hidden rounded-md">
                                         <ReactPlayer url={item?.url} controls width="100%" height="100%" className="absolute" />
                                     </div>
                                 )
