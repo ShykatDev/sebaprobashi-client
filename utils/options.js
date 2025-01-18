@@ -122,4 +122,7 @@ export const countryOptions = [
   { label: "Saudi Arabia", value: "saudi_arabia" },
   { label: "Kuwait", value: "kuwait" },
   { label: "Qatar", value: "qatar" },
+  { label: "Italy", value: "italy" },
+  { label: "Hungry", value: "hungry" },
+  { label: "Romania", value: "romania" },
 ];

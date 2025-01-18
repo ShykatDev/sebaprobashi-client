@@ -5,7 +5,12 @@ import Loading from "@/components/common/Loading";
 import NoDataFound from "@/components/common/NoDataFound";
 import { countryOptions } from "@/utils/options";
 import { useQuery } from "@tanstack/react-query";
+import { format } from 'date-fns';
 import Image from "next/image";
+
+function getFormattedDate(isoString) {
+  return format(new Date(isoString), "dd MMMM, yyyy");
+}
 
 const Applications = () => {
   const { data: applications, isLoading } = useQuery({
@@ -34,6 +39,9 @@ const Applications = () => {
           <table className="w-full text-sm text-left rtl:text-right text-gray-500">
             <thead className="text-xs text-gray-700 uppercase bg-primary/[0.1]">
               <tr className="">
+              <th scope="col" className="px-6 py-3 text-nowrap">
+                  Application Date
+                </th>
                 <th scope="col" className="px-6 py-3 text-nowrap">
                   Profile Image
                 </th>
@@ -52,9 +60,9 @@ const Applications = () => {
                 <th scope="col" className="px-6 py-3 text-nowrap">
                   Passport Number
                 </th>
-                <th scope="col" className="px-6 py-3 text-nowrap">
+                {/* <th scope="col" className="px-6 py-3 text-nowrap">
                   Applied Job
-                </th>
+                </th> */}
                 <th scope="col" className="px-6 py-3 text-nowrap">
                   Applied Visa
                 </th>
@@ -64,7 +72,10 @@ const Applications = () => {
               {applications?.map((user, i) => {
                 return (
                   <tr key={i} className="bg-white/[0.5] border-b ">
-                    <th
+                    <td className="px-6 py-4 text-nowrap">
+                      <span>{getFormattedDate(user?.createdAt)}</span>
+                    </td>
+                    <td
                       scope="row"
                       className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
                     >
@@ -75,7 +86,7 @@ const Applications = () => {
                         alt="pp"
                         className="size-10 rounded-full"
                       />
-                    </th>
+                    </td>
                     <td className="px-6 py-4 text-nowrap">
                       <span>{user?.first_name}</span>{" "}
                       <span>{user?.last_name}</span>
@@ -92,9 +103,9 @@ const Applications = () => {
                     <td className="px-6 py-4 text-nowrap">
                       <p>{user?.passport_number}</p>
                     </td>
-                    <td className="px-6 py-4 text-nowrap">
+                    {/* <td className="px-6 py-4 text-nowrap">
                       <p>{user?.job_id?.title || "N/A"}</p>
-                    </td>
+                    </td> */}
                     <td className="px-6 py-4 text-nowrap">
                       {user?.visa_id ? (
                         <p>

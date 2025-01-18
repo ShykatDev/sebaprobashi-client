@@ -70,7 +70,7 @@ const FileInput = ({
             ref={fileRef}
             className="hidden"
             onChange={handleFileChange}
-            accept=".png,.jpg,.jpeg"
+            accept=".png,.jpg,.jpeg,.webp"
           />
 
           <div

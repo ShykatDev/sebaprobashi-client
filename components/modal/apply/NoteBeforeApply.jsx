@@ -9,7 +9,6 @@ const NoteBeforeApply = ({ visa }) => {
     const [isApply, setIsApply] = useState(false);
     const { t } = useTranslation()
 
-
     return (
         <div className='relative p-3 rounded-lg overflow-hidden'>
             <div className='absolute w-full h-full top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 -z-10'>
@@ -23,12 +22,12 @@ const NoteBeforeApply = ({ visa }) => {
             </div>
             {visa?.icon ? (
                 <Image
-                src={visa?.icon}
-                alt='image'
-                width={500}
-                height={500}
-                className='w-full object-cover rounded-md mb-4'
-            />) : null}
+                    src={visa?.icon}
+                    alt='image'
+                    width={500}
+                    height={500}
+                    className='w-full object-cover rounded-md mb-4'
+                />) : null}
             <div className='bg-white/70 rounded-md p-3'>
 
                 <div dangerouslySetInnerHTML={{ __html: visa?.description }}></div>

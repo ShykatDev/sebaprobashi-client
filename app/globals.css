@@ -66,3 +66,13 @@ p.is-editor-empty:first-child::before {
 }
 
 /* xxxxxxxxxxx Rich text editor styles xxxxxxxxxxxxxxxxxx*/
+
+ul {
+  list-style: disc;
+  padding-left: 16px;
+}
+
+ol {
+  list-style: decimal;
+  padding-left: 16px;
+}
