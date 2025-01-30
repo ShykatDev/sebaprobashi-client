@@ -1,4 +1,3 @@
-import Loading from "@/components/common/Loading";
 import MainProvider from "@/providers/MainProvider";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -26,8 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <MainProvider>
-          {/* {children} */}
-          <Loading />
+          {children}
         </MainProvider>
       </body>
     </html>
